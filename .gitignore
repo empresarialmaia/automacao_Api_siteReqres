@@ -1,0 +1,28 @@
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar arquivos gerados pelo Maven
+target/
+
+# Ignorar arquivos de configuração do IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorar arquivos de configuração do Eclipse
+.project
+.classpath
+.settings/
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências baixadas localmente pelo Maven
+.mvn/
+
+# Ignorar arquivos de cache de testes
+test-output/
+surefire-reports/
