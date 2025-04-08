@@ -9,6 +9,7 @@ import automacao_Api_siteReqres.Model.Model;
 import io.restassured.response.Response;
 
 public class PutTests {
+	
 
 	@Test
 	public void atualizacaoCompletaUsuariosComSucesso() {
