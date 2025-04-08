@@ -8,11 +8,11 @@ import io.restassured.response.Response;
 
 public class PutEndpoint {
 	
-	public static Response atualizarUsuariosPut(Model post, String id) {
+	public static Response atualizarUsuariosPut(Model put, String id) {
 	    return given()    
 	    		.baseUri(Config.BASE_URL)
 	            .contentType("application/json")
-	            .body(post)
+	            .body(put)
 	            .when()
 	            .put("/api/users/"+ id);
 	}

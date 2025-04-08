@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 public class DeleteEndpoint {
 	
 	public static Response deletarUsuariosCadastradosPorIdDel(String id) {
-		return given()
+		return given()				
 				.baseUri(Config.BASE_URL)	            	            
 	            .when()
 	            .delete("/api/users/"+id);					
